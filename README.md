@@ -1,20 +1,8 @@
-# create-svelte
+# venashial.design
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+![image](https://user-images.githubusercontent.com/44736536/125389453-c1bb3780-e390-11eb-861e-04f5bdad0ef6.png)
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
-```
-
-> Note: the `@next` is temporary
+(Picture from commit [`ebc8cfe`](https://github.com/venashial/venashial.design/tree/ebc8cfe43b8d8b8b9da0b719f107e4d7ef52250e))
 
 ## Developing
 
