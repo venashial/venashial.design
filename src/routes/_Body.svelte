@@ -17,7 +17,7 @@
 		<h3>Introduction</h3>
 		<p>
 			Hi there, I'm venashial. (That's a pen name.) I love [programming], designing UIs, making
-			[games], creating logos. I also love to read [sci-fi] & [fantasy books], watch [animated
+			[games], and creating logos. I also love to read [sci-fi] & [fantasy books], watch [animated
 			shows], and listen to [broadway musicals].
 		</p>
 		<h3>Links</h3>

@@ -1,5 +1,5 @@
 ### Introduction
-Hi there, I'm venashial. (That's a pen name.) I love [programming], designing UIs, making [games], creating logos. I also love to read [sci-fi] & [fantasy books], watch [animated shows], and listen to [broadway musicals].
+Hi there, I'm venashial. (That's a pen name.) I love [programming], designing UIs, making [games], and creating logos. I also love to read [sci-fi] & [fantasy books], watch [animated shows], and listen to [broadway musicals].
 
 ### Programming
 Programming is a core part of who I am and who I will be. It's hard to put into words the joy of seeing a function work after hours of trial and error. For better or for worse, the problem solving nature of coding is weaved into my mind, whether I'm sitting at my desk or going on a hike.
