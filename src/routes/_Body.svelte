@@ -10,8 +10,10 @@
 		<div class="error">
 			<h3>Under Construction</h3>
 			<p>
-				This new page made with <a href="https://svelte.dev" target="_blank">Svelte</a> is under construction.
-				Check back for updates. (The markdown below isn't rendered correctly yet.)
+				This new page made with <a href="https://svelte.dev" target="_blank" rel="noopener"
+					>Svelte</a
+				> is under construction. Check back for updates. (The markdown below isn't rendered correctly
+				yet.)
 			</p>
 		</div>
 		<h3>Introduction</h3>
@@ -22,16 +24,25 @@
 		</p>
 		<h3>Links</h3>
 		<ul>
-			<li>Play <a href="https://venashial.games" target="_blank">Games</a> I've made</li>
-			<li>My code on <a href="https://github.com/venashial/" target="_blank">GitHub</a></li>
+			<li>
+				Play <a href="https://venashial.games" target="_blank" rel="noopener">Games</a> I've made
+			</li>
+			<li>
+				My code on <a href="https://github.com/venashial/" target="_blank" rel="noopener">GitHub</a>
+			</li>
 			<li>
 				Songs I like on
 				<a
 					href="https://open.spotify.com/user/cslxf6mijlcrjoneoonugsx2s?si=85bc61f0a32541af"
-					target="_blank">Spotify</a
+					target="_blank"
+					rel="noopener">Spotify</a
 				>
 			</li>
-			<li>Contact via <a href="mailto:venashial.subfile@aleeas.com" target="_blank">Email</a></li>
+			<li>
+				Contact via <a href="mailto:venashial.subfile@aleeas.com" target="_blank" rel="noopener"
+					>Email</a
+				>
+			</li>
 		</ul>
 		<h3>Programming</h3>
 		<p>
@@ -50,7 +61,7 @@
 			servers, I use [NodeJS] and containerize it with docker plus docker-compose. To deploy websites,
 			I've used [Vercel], [Heroku], [Netlify], and [GitHub Pages], but I also self host projects on occasion.
 		</p>
-		<a href="https://vena.sh">Exit to Portal ❯</a>
+		<a href="https://vena.sh" rel="noopener">Exit to Portal ❯</a>
 	</div>
 </div>
 
