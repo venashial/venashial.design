@@ -1,0 +1,111 @@
+/*
+@font-face {
+	font-family: 'Verlag Black';
+	src: url('/fonts/Verlag Black.woff2') format('woff2'),
+		url('/fonts/Verlag Black.otf') format('otf');
+}
+*/
+
+@mixin flex() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+  --font-body: "", Cambria, Georgia, serif;
+  --font-header: "", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", Arial, sans-serif;
+  --font-mono: monospace;
+  --bg-color: white;
+  --text-color: #2e2e2e;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 16px;
+  margin: 0;
+  font-family: var(--font-body);
+  background-image: url("background.svg");
+  background-size: cover;
+  background-position: top right;
+  background-color: var(--bg-color);
+}
+
+#svelte {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-header);
+  margin: 0;
+}
+
+p {
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 6rem;
+  margin-bottom: 0.7rem;
+
+  @media (max-width: 530px) {
+    font-size: 4rem;
+  }  
+
+  @media (max-width: 390px) {
+    font-size: 3rem;
+  }  
+}
+
+h2 {
+  font-size: 2.7rem;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+
+  @media (max-width: 530px) {
+    font-size: 2rem;
+  }  
+
+  @media (max-width: 390px) {
+    font-size: 1.5rem;
+  }  
+}
+
+input,
+button {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+button:focus:not(:focus-visible) {
+  outline: none;
+}
+
+ul {
+  @include flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 0.2rem dotted rgb(161, 161, 161);
+
+  &:hover {
+    border-bottom-style: solid;
+  }
+}
+
+li {
+  margin: 0.3rem 0;
+}
