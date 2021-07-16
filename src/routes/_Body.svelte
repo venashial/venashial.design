@@ -54,12 +54,13 @@
 			So what do I program? I create websites and desktop apps with [Javascript], with backend relational
 			database servers. I contribute to open source projects, like [modrinth/knossos] for fun and to
 			better the app for everyone. In addition, I have a plethora of [my own projects], most solve problems
+			I've encountered or test a new technology I've learned.
 			<br /><br />
-			I've encountered or test a new technology I've learned. How do you write code? My setup normally
-			consists of [VSCode], [iTerm2], and [Firefox], plus some other browsers for ample testing. For
-			websites, I use a front-end javascript framework such as [Vue] ([Nuxt]) or [Svelte] ([Kit]). For
-			servers, I use [NodeJS] and containerize it with docker plus docker-compose. To deploy websites,
-			I've used [Vercel], [Heroku], [Netlify], and [GitHub Pages], but I also self host projects on occasion.
+			How do you write code? My setup normally consists of [VSCode], [iTerm2], and [Firefox], plus some
+			other browsers for ample testing. For websites, I use a front-end javascript framework such as
+			[Vue] ([Nuxt]) or [Svelte] ([Kit]). For servers, I use [NodeJS] and containerize it with docker
+			plus docker-compose. To deploy websites, I've used [Vercel], [Heroku], [Netlify], and [GitHub Pages],
+			but I also self host projects on occasion.
 		</p>
 		<a href="https://vena.sh" rel="noopener">Exit to Portal ❯</a>
 	</div>
