@@ -1,10 +1,32 @@
 <script context="module">
-	export const prerender = true;
+  export const prerender = true;
+  import render from '$lib/markdown.js';
+
+	/** @type {import('@sveltejs/kit').Load} */
+	export async function load({ page, fetch, session, stuff }) {
+		const res = await fetch('/text/body.md');
+
+		if (res.ok) {
+      const text = await res.text();
+			return {
+				props: {
+					body: render(text)
+				}
+			};
+		}
+
+		return {
+			status: res.status,
+			error: new Error('Could not load body')
+		};
+	}
 </script>
 
 <script>
 	import Sidebar from './_Sidebar.svelte';
 	import Body from './_Body.svelte';
+
+  export let body;
 </script>
 
 <svelte:head>
@@ -13,7 +35,7 @@
 
 <main>
 	<Sidebar />
-	<Body />
+<Body {body} />
 </main>
 
 <style lang="scss">
